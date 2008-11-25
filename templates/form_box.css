@@ -1,0 +1,80 @@
+fieldset {
+	/* padding-left: 40px;	/* padding interno al bordo (comprensivo di legend) */
+	/* background-color:lightsteelblue; /* colore interno al bordo */
+	/* border:none; */
+	font-family: tahoma;
+	font-size:small;
+}
+form {
+	/* padding-left:40px; /* padding esterno al bordo */
+}
+legend {
+	padding: 5px 40px 5px 40px;
+	background-color: cornflowerblue;
+	color:white;
+	border:thin solid gray;
+	/* text-align:right; /* stile alternativo */
+}
+.label {
+	width:190px;	/* == .submit.padding-left - 10px */
+	float:left;
+	text-align:right;
+	display:block;
+}
+.input {
+	display:block;
+	padding-left:200px; /* questa serve per indentare anche le linee successive interne al div */
+}
+.submit {
+	padding-left:200px;	/* == .submit.padding-left */
+	padding-top:10px;
+}
+.irow {
+	/* border-bottom: thin dotted grey; */
+	/* margin: 5px 0 5px 0; */
+	/* background-color:yellow; */
+	width:100%;
+}
+/* styles for the language_area field */
+div.langtab {
+	width:70px;
+	height:20px;
+	text-align:center;
+	background-color:lightgrey;
+	float:left;
+	margin-bottom:-4px;
+}
+div.langtab:hover {
+	background-color:khaki;
+}
+div.langtab a {
+	text-decoration:none;
+}
+div.sel {
+	background-color:darkgrey;
+}
+div.sel:hover {
+	background-color:darkgrey;
+}
+div.tabbable {
+	padding:5px 5px 5px 0px;
+	margin-left:200px;
+}
+div.tabbable textarea {
+	border:thin solid darkgrey;
+	border-top:thick solid darkgrey;
+}
+div.tabbar {
+	padding-left:2px;
+}
+.constfield {
+	padding-top:0px;
+	padding-bottom: 4px;
+}
+div.label span.required {
+	color:red;
+}
+div.lang_text {
+	display: block;
+	border: thin solid darkgray;
+}
